@@ -1,0 +1,298 @@
+:root {
+  --preto-1: #060606;
+  --preto-2: #131313;
+  --preto-3: #202020;
+  --preto-4: #2d2d2d;
+  --preto-5: #383838;
+  --dourado-logo: #d9b269;
+
+  --tamanho1: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+/* ! Capa ----------------------------------- */
+
+.container {
+  width: 375px;
+  height: auto;
+}
+
+.capa {
+  height: 100vh;
+  background-color: #202020c0;
+  background-image: url('https://images.unsplash.com/photo-1587909209111-5097ee578ec3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.capa h2 {
+  font-size: 1.7rem;
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  color: #d9b269;
+}
+
+.capa p {
+  font-size: var(--tamanho1);
+  opacity: 0.8;
+}
+
+.logo {
+  width: 250px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+/* ! Navbar ----------------------------------- */
+
+nav {
+  width: 375px;
+  height: 50px;
+  background-color: #2e2e2ee4;
+  position: fixed;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav img {
+  width: 50px;
+}
+
+nav a {
+  background-color: var(--dourado-logo);
+  padding: 0.35rem 0.5rem;
+  border-radius: 10px;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* Dropdown-menu */
+
+.drop__menu {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  bottom: -100px;
+  left: 0;
+  padding: 0.3rem;
+  transition: all 2s ease-in-out;
+  border: 1px solid rgb(48, 48, 48);
+}
+
+.drop__menu a {
+  background-color: transparent;
+  color: rgb(200, 198, 152);
+  font-size: 0.6rem;
+}
+
+.links__container {
+  display: flex;
+  text-align: right;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Hamburger menu -------------- */
+
+.menu__container {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  row-gap: 5px;
+  /* border: 1px solid white; */
+  z-index: 10;
+}
+
+.bar {
+  width: 70%;
+  height: 3px;
+  background-color: rgb(250, 250, 250);
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+.bar2.anime {
+  transform: translateX(-50px);
+  opacity: 0;
+}
+
+.bar1.anime {
+  /* transform-origin: 0% 0%; */
+  transform: translate(0px, 8px) rotate(45deg);
+  transform-origin: center;
+  /* transform: rotate(20deg); */
+}
+.bar3.anime {
+  /* transform-origin: 50% 0%; */
+  transform: translate(0px, -8px) rotate(-45deg);
+  transform-origin: center;
+}
+
+/* ! Since --------------------------------------------- */
+.since {
+  height: 100vh;
+  background-color: var(--preto-3);
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--dourado-logo);
+  border-top: 1px solid rgba(176, 174, 146, 0.404);
+  border-bottom: 1px solid rgba(176, 174, 146, 0.404);
+}
+
+.since__container {
+  background-color: var(--preto-4);
+  height: 70vh;
+  border-radius: 3px;
+  padding: 3px;
+  border: 1px solid var(--dourado-logo);
+  flex-direction: column;
+  justify-content: center;
+}
+
+since p {
+  font-size: 1rem;
+}
+
+.since__img--container {
+  height: 200px;
+}
+
+.since__img--container img {
+  width: 100%;
+  border: 10px solid black;
+}
+
+.since h2 {
+  align-self: left;
+  font-size: 2rem;
+  margin: 1rem 0 3rem 0;
+  background-color: #d9b269;
+  /* box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.693); */
+  border-radius: 2px;
+  text-align: center;
+  color: white;
+}
+
+.since p {
+  font-size: var(--tamanho1);
+  margin-bottom: 1.5rem;
+  color: white;
+  padding: 0 1rem;
+}
+
+.since span {
+  color: black;
+}
+
+h3 {
+  color: var(--dourado-logo);
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+/*! Service Container --------------------------------------------- */
+.service__container {
+  height: auto;
+  background-color: var(--preto-4);
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.card__container {
+  width: 100%;
+  height: 150px;
+  background-color: var(--preto-2);
+  box-shadow: 6px 3px 4px 3px rgba(0, 0, 0, 0.297);
+  display: flex;
+  padding: 0.5rem;
+  border: 2px solid rgba(192, 191, 186, 0.226);
+}
+
+h4 {
+  font-size: 2rem;
+  color: rgb(235, 235, 235);
+  text-shadow: 3px 3px 3px rgba(210, 192, 27, 0.829);
+  margin-bottom: 2rem;
+}
+
+.icon__container {
+  /* background-color: var(--preto-5); */
+  height: 100%;
+  width: 40%;
+  border-right: 1px solid rgba(128, 128, 128, 0.419);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon__container img {
+  opacity: 0.4;
+  width: 80px;
+}
+
+.service__details {
+  background-color: var(--preto-2);
+  height: 100%;
+  width: 50%;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.details__title {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: goldenrod;
+}
+
+.details__text {
+  color: rgba(210, 205, 192, 0.467);
+}
