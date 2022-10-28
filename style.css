@@ -179,14 +179,12 @@ nav a {
   justify-content: center;
   flex-direction: column;
   color: var(--dourado-logo);
-  border-top: 1px solid rgba(176, 174, 146, 0.404);
-  border-bottom: 1px solid rgba(176, 174, 146, 0.404);
 }
 
 .since__container {
   width: 310px;
   background-color: var(--preto-3);
-  height: 75vh;
+  height: 60vh;
   border-radius: 3px;
   padding: 3px;
   border: 1px solid var(--dourado-logo);
