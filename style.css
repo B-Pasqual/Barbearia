@@ -106,12 +106,13 @@ nav a {
   height: 100px;
   width: 100%;
   position: absolute;
-  background-color: rgb(0, 0, 0);
+  background-color: #000000bf;
+  border-bottom: 1px solid rgb(55, 55, 55);
+  border-top: 1px solid rgb(55, 55, 55);
   bottom: -100px;
   left: 0;
   padding: 0.3rem;
   transition: all 2s ease-in-out;
-  border: 1px solid rgb(48, 48, 48);
 }
 
 .drop__menu a {
