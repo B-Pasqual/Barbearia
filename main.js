@@ -2,11 +2,11 @@
 
 // Arrays de fotos com os clientes
 const amigos = [
-  '/assets/img/amigos/amigos2.png',
-  '/assets/img/amigos/amigos3.png',
-  '/assets/img/amigos/amigos4.png',
-  '/assets/img/amigos/amigos5.png',
-  '/assets/img/amigos/amigos6.png',
+  'img/amigos/amigos2.png',
+  'img/amigos/amigos3.png',
+  'img/amigos/amigos4.png',
+  'img/amigos/amigos5.png',
+  'img/amigos/amigos6.png',
 ];
 
 //todo---------------- Variáveis
