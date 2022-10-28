@@ -75,7 +75,7 @@ h1 {
 /* ! Navbar ----------------------------------- */
 
 nav {
-  width: 400px;
+  width: 415px;
   height: 50px;
   padding: 0 30px;
   background-color: #2e2e2ee4;
@@ -124,6 +124,7 @@ nav a {
   text-align: right;
   justify-content: center;
   flex-direction: column;
+  padding: 0.2rem 2rem;
 }
 
 /* Hamburger menu -------------- */
@@ -246,7 +247,7 @@ h3 {
   width: 100%;
   height: 150px;
   background-color: black;
-  box-shadow: 3px 3px 4px 3px rgba(92, 91, 91, 0.297);
+  box-shadow: 3px 3px 4px 3px rgb(26, 26, 26);
   display: flex;
   padding: 0.5rem;
   border: 2px solid rgba(192, 191, 186, 0.226);
