@@ -75,13 +75,14 @@ h1 {
 /* ! Navbar ----------------------------------- */
 
 nav {
-  width: 415px;
+  width: 400px;
   height: 50px;
+  padding: 0 30px;
   background-color: #2e2e2ee4;
   position: fixed;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 nav img {
@@ -181,8 +182,8 @@ nav a {
 }
 
 .since__container {
-  background-color: var(--preto-4);
-  height: 70vh;
+  background-color: var(--preto-1);
+  height: 75vh;
   border-radius: 3px;
   padding: 3px;
   border: 1px solid var(--dourado-logo);
@@ -208,7 +209,6 @@ since p {
   font-size: 2rem;
   margin: 1rem 0 3rem 0;
   background-color: #d9b269;
-  /* box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.693); */
   border-radius: 2px;
   text-align: center;
   color: white;
@@ -235,7 +235,7 @@ h3 {
 /*! Service Container --------------------------------------------- */
 .service__container {
   height: auto;
-  background-color: var(--preto-4);
+  background-color: var(--preto-2);
   padding: 2rem 2rem;
   display: flex;
   flex-direction: column;
@@ -245,8 +245,8 @@ h3 {
 .card__container {
   width: 100%;
   height: 150px;
-  background-color: var(--preto-2);
-  box-shadow: 6px 3px 4px 3px rgba(0, 0, 0, 0.297);
+  background-color: black;
+  box-shadow: 3px 3px 4px 3px rgba(92, 91, 91, 0.297);
   display: flex;
   padding: 0.5rem;
   border: 2px solid rgba(192, 191, 186, 0.226);
@@ -255,8 +255,8 @@ h3 {
 h4 {
   font-size: 2rem;
   color: rgb(235, 235, 235);
-  text-shadow: 3px 3px 3px rgba(210, 192, 27, 0.829);
   margin-bottom: 2rem;
+  text-shadow: 2px 2px 2px var(--dourado-logo);
 }
 
 .icon__container {
