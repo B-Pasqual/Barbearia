@@ -78,7 +78,7 @@ nav {
   /* width: 415px; */
   width: 100%;
   height: 50px;
-  padding: 0 9%;
+  padding: 0 5%;
   background-color: #000000de;
   position: fixed;
   display: flex;
@@ -112,14 +112,14 @@ nav a {
   border-right: 1px solid rgb(55, 55, 55);
   bottom: -100px;
   left: 0;
-  padding: 0.3rem;
   transition: all 2s ease-in-out;
 }
 
 .drop__menu a {
   background-color: transparent;
-  color: rgb(200, 198, 152);
+  color: var(--dourado-logo);
   font-size: 0.6rem;
+  border-bottom: 1px solid rgb(30, 30, 30);
 }
 
 .links__container {
@@ -127,7 +127,7 @@ nav a {
   text-align: right;
   justify-content: center;
   flex-direction: column;
-  padding: 0.2rem 2rem;
+  padding: 0.2rem 0.8rem;
 }
 
 /* Hamburger menu -------------- */
