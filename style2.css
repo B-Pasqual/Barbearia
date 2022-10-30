@@ -201,6 +201,7 @@ nav a {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 3rem;
 }
 
 .hidden {
@@ -217,18 +218,24 @@ nav a {
 
 .button_right {
   font-size: 5rem;
-  color: red;
+  color: rgb(165, 124, 22);
   position: absolute;
   z-index: 5;
-  top: 80%;
-  right: 35%;
+  background-color: rgba(0, 0, 0, 0.228);
+  padding: 0 1.3rem;
+  border-radius: 50%;
+  top: 85%;
+  right: 25%;
 }
 
 .button_left {
   font-size: 5rem;
-  color: red;
+  color: rgb(165, 124, 22);
+  background-color: rgba(0, 0, 0, 0.228);
+  padding: 0 1.3rem;
+  border-radius: 50%;
   position: absolute;
   z-index: 5;
-  top: 80%;
-  left: 35%;
+  top: 85%;
+  right: 55%;
 }
