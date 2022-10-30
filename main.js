@@ -96,7 +96,7 @@ function checkUrl() {
     console.log('estou na página inicial');
     slideFotos();
   } else {
-    criaDiv();
+    // criaDiv();
     let fotosCard = document.querySelectorAll('.photo_card');
 
     fotosCard.forEach((photo_card, index) => {
