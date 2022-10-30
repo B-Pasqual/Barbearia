@@ -143,9 +143,7 @@ function toggleHiddens() {
 menu.forEach((menu__container) => {
   menu__container.addEventListener('click', () => {
     console.log('fui clicado');
-    // criaDiv();
     checkClass();
-    // dropMenu.classList.toggle('hidden');
     barras.forEach((bar) => {
       bar.classList.toggle('anime');
     });
@@ -160,3 +158,5 @@ menuLinks.forEach((link, index) => {
 
 //! Execução de funções ----------------------------------------
 checkUrl();
+
+window.addEventListener('keypress');

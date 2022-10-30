@@ -201,7 +201,7 @@ nav a {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 3rem;
+  padding-bottom: 6rem;
 }
 
 .hidden {
@@ -216,26 +216,33 @@ nav a {
   border: 15px solid black;
 }
 
-.button_right {
+.pass_btn {
   font-size: 5rem;
   color: rgb(165, 124, 22);
+  border: 3px solid var(--dourado-logo);
   position: absolute;
   z-index: 5;
-  background-color: rgba(0, 0, 0, 0.228);
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 0 1.3rem;
   border-radius: 50%;
-  top: 85%;
+  top: 80%;
+  opacity: 0.8;
+  transition: all 0.3s;
+}
+
+.button_right {
   right: 25%;
 }
 
 .button_left {
-  font-size: 5rem;
-  color: rgb(165, 124, 22);
-  background-color: rgba(0, 0, 0, 0.228);
-  padding: 0 1.3rem;
-  border-radius: 50%;
-  position: absolute;
-  z-index: 5;
-  top: 85%;
   right: 55%;
+}
+
+.pass_btn:hover {
+  opacity: 1;
+}
+
+.pass_btn:active {
+  background-color: rgb(165, 124, 22);
+  color: black;
 }
