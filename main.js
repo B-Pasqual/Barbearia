@@ -9,26 +9,26 @@ const amigos = [
   'img/amigos/amigos6.png',
 ];
 
-const fotos = [
-  '/img/amigos/galeria1.png',
-  '/img/amigos/galeria2.png',
-  '/img/amigos/galeria3.png',
-  '/img/amigos/galeria4.png',
-  '/img/amigos/galeria5.png',
-  '/img/amigos/galeria6.png',
-  '/img/amigos/galeria7.png',
-  '/img/amigos/galeria8.png',
-  '/img/amigos/galeria9.png',
-  '/img/amigos/galeria10.png',
-  '/img/amigos/galeria11.png',
-  '/img/amigos/galeria12.png',
-  '/img/amigos/galeria13.png',
-  '/img/amigos/galeria14.png',
-  '/img/amigos/galeria15.png',
-  '/img/amigos/galeria16.png',
-  '/img/amigos/galeria17.png',
-  '/img/amigos/galeria18.png',
-];
+// const fotos = [
+//   '/img/amigos/galeria1.png',
+//   '/img/amigos/galeria2.png',
+//   '/img/amigos/galeria3.png',
+//   '/img/amigos/galeria4.png',
+//   '/img/amigos/galeria5.png',
+//   '/img/amigos/galeria6.png',
+//   '/img/amigos/galeria7.png',
+//   '/img/amigos/galeria8.png',
+//   '/img/amigos/galeria9.png',
+//   '/img/amigos/galeria10.png',
+//   '/img/amigos/galeria11.png',
+//   '/img/amigos/galeria12.png',
+//   '/img/amigos/galeria13.png',
+//   '/img/amigos/galeria14.png',
+//   '/img/amigos/galeria15.png',
+//   '/img/amigos/galeria16.png',
+//   '/img/amigos/galeria17.png',
+//   '/img/amigos/galeria18.png',
+// ];
 
 //todo---------------- Variáveis
 let i = 0;
