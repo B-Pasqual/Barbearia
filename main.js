@@ -49,6 +49,7 @@ const menuLinks = document.querySelectorAll('.link');
 //botoões para trocar fotos
 const direitaBtn = document.querySelector('.button_right');
 const esquerdaBtn = document.querySelector('.button_left');
+const closeBtn = document.querySelector('.close_btn');
 //div modal
 let divModal = document.querySelector('.modal');
 
@@ -137,6 +138,7 @@ function toggleHiddens() {
   divModal.classList.toggle('hidden');
   direitaBtn.classList.toggle('hidden');
   esquerdaBtn.classList.toggle('hidden');
+  closeBtn.classList.toggle('hidden');
 }
 
 //! Event handlers ---------------------------------------------
@@ -159,4 +161,14 @@ menuLinks.forEach((link, index) => {
 //! Execução de funções ----------------------------------------
 checkUrl();
 
-window.addEventListener('keypress');
+// window.addEventListener('keypress');
+//!Event handlers that will close the modal and other things ----------------
+
+closeBtn.addEventListener('click', () => {
+  console.log('fui clicado');
+  toggleHiddens();
+});
+
+divModal.addEventListener('click', () => {
+  toggleHiddens();
+});

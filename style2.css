@@ -39,7 +39,6 @@ body {
 /* ! Navbar ----------------------------------- */
 
 nav {
-  /* width: 415px; */
   width: 100%;
   height: 50px;
   padding: 0 5%;
@@ -48,6 +47,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 5;
 }
 
 nav img {
@@ -106,7 +106,6 @@ nav a {
   cursor: pointer;
   transition: all 0.5s ease-in-out;
   row-gap: 5px;
-  /* border: 1px solid white; */
   z-index: 10;
 }
 
@@ -150,10 +149,6 @@ nav a {
 }
 
 .gallery__container p {
-  color: white;
-}
-
-.vaisefoder {
   color: white;
 }
 
@@ -245,4 +240,20 @@ nav a {
 .pass_btn:active {
   background-color: rgb(165, 124, 22);
   color: black;
+}
+
+.close_btn {
+  font-size: 1.5rem;
+  padding: 0.25rem 0.7rem;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.234);
+  color: white;
+  border: 1px solid black;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.close_btn:hover {
+  transform: scale(1.1);
 }
