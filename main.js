@@ -140,8 +140,10 @@ menuLinks.forEach((link, index) => {
 checkUrl();
 
 direitaBtn.addEventListener('click', () => {
+  console.log(controleModal);
   controleModal++;
-  controleModal = fotos.length
+  console.log(controleModal);
+  controleModal === fotos.length
     ? (controleModal = 0)
     : (divModal.innerHTML = `<img src="${fotos[controleModal]}" alt="">`);
 });
