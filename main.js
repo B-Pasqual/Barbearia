@@ -94,6 +94,7 @@ function checkClass() {
 function checkUrl() {
   if (document.URL.includes('index.html')) {
     console.log('estou na página inicial');
+    slideFotos();
   } else {
     criaDiv();
     let fotosCard = document.querySelectorAll('.photo_card');
@@ -103,7 +104,7 @@ function checkUrl() {
         toggleHiddens();
         console.log(index);
         console.log(fotos[index]);
-        divModal.innerHTML = `<img src="${fotos[index]}" alt="">`;
+        divModal.innerHTML = `<img src="${fotos[index]}" alt="foto do corte de cabelo de alguns clientes">`;
         controleModal = index;
       });
     });
