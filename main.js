@@ -50,7 +50,7 @@ const menuLinks = document.querySelectorAll('.link');
 const direitaBtn = document.querySelector('.button_right');
 const esquerdaBtn = document.querySelector('.button_left');
 //div modal
-const divModal = document.querySelector('.modal');
+let divModal = document.querySelector('.modal');
 
 //! Funções------------------------------------------
 
@@ -106,6 +106,26 @@ function checkUrl() {
         console.log(fotos[index]);
         divModal.innerHTML = `<img src="${fotos[index]}" alt="foto do corte de cabelo de alguns clientes">`;
         controleModal = index;
+
+        //!Event handler botão direito
+        direitaBtn.addEventListener('click', () => {
+          console.log(controleModal);
+          controleModal++;
+          console.log(controleModal);
+          controleModal === fotos.length
+            ? (controleModal = 0)
+            : (divModal.innerHTML = `<img src="${fotos[controleModal]}" alt="">`);
+        });
+
+        //!Event handler botão esquerdo
+        esquerdaBtn.addEventListener('click', () => {
+          console.log(controleModal);
+          controleModal--;
+          console.log(controleModal);
+          controleModal === 0
+            ? (controleModal = 17)
+            : (divModal.innerHTML = `<img src="${fotos[controleModal]}" alt="">`);
+        });
       });
     });
   }
@@ -136,23 +156,6 @@ menuLinks.forEach((link, index) => {
   link.addEventListener('click', () => {
     console.log(menuLinks[index]);
   });
-});
-
-direitaBtn.addEventListener('click', () => {
-  console.log(controleModal);
-  controleModal++;
-  console.log(controleModal);
-  controleModal === fotos.length
-    ? (controleModal = 0)
-    : (divModal.innerHTML = `<img src="${fotos[controleModal]}" alt="">`);
-});
-esquerdaBtn.addEventListener('click', () => {
-  console.log(controleModal);
-  controleModal--;
-  console.log(controleModal);
-  controleModal === 0
-    ? (controleModal = 17)
-    : (divModal.innerHTML = `<img src="${fotos[controleModal]}" alt="">`);
 });
 
 //! Execução de funções ----------------------------------------
