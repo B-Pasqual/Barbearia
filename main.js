@@ -96,17 +96,31 @@ function checkUrl() {
   if (document.URL.includes('index.html')) {
     console.log('estou na página inicial');
     slideFotos();
-  } else {
+  } else if (document.URL.includes('galeria.html')) {
     criaDiv();
     let fotosCard = document.querySelectorAll('.photo_card');
 
     fotosCard.forEach((photo_card, index) => {
       photo_card.addEventListener('click', () => {
-        toggleHiddens();
+        // toggleHiddens();
+        removeHidden();
         console.log(index);
         console.log(fotos[index]);
         divModal.innerHTML = `<img src="${fotos[index]}" alt="foto do corte de cabelo de alguns clientes">`;
         controleModal = index;
+
+        //!Event handler botão fecha
+        closeBtn.addEventListener('click', () => {
+          console.log('fui clicado');
+          // toggleHiddens();
+          addHidden();
+        });
+
+        //!Event handler div (close photos)
+        divModal.addEventListener('click', () => {
+          console.log('fecha modal executado');
+          addHidden();
+        });
 
         //!Event handler botão direito
         direitaBtn.addEventListener('click', () => {
@@ -129,16 +143,24 @@ function checkUrl() {
         });
       });
     });
+  } else if (document.URL.includes('profissionais.html')) {
   }
 }
 
-//! ----- Função toggle hiddens
+// ----- Função toggle hiddens
 
-function toggleHiddens() {
-  divModal.classList.toggle('hidden');
-  direitaBtn.classList.toggle('hidden');
-  esquerdaBtn.classList.toggle('hidden');
-  closeBtn.classList.toggle('hidden');
+function removeHidden() {
+  divModal.classList.remove('hidden');
+  direitaBtn.classList.remove('hidden');
+  esquerdaBtn.classList.remove('hidden');
+  closeBtn.classList.remove('hidden');
+}
+
+function addHidden() {
+  divModal.classList.add('hidden');
+  direitaBtn.classList.add('hidden');
+  esquerdaBtn.classList.add('hidden');
+  closeBtn.classList.add('hidden');
 }
 
 //! Event handlers ---------------------------------------------
@@ -163,12 +185,3 @@ checkUrl();
 
 // window.addEventListener('keypress');
 //!Event handlers that will close the modal and other things ----------------
-
-closeBtn.addEventListener('click', () => {
-  console.log('fui clicado');
-  toggleHiddens();
-});
-
-divModal.addEventListener('click', () => {
-  toggleHiddens();
-});
