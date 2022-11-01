@@ -134,7 +134,7 @@ nav a {
 /* ! Profissionais container --------------------------------------- */
 
 .content_container {
-  margin-top: 130px;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -147,6 +147,9 @@ nav a {
   height: 200px;
   align-self: center;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
 }
 
 h2 {
@@ -155,6 +158,60 @@ h2 {
 }
 
 .cleiton_img {
-  width: 50%;
-  border-radius: 80%;
+  width: 45%;
+  border-radius: 40px;
+  position: absolute;
+  right: 0;
+  top: -30px;
+}
+
+.gui_img {
+  width: 40%;
+  border-radius: 40px;
+  position: absolute;
+  left: -10px;
+  top: -20px;
+}
+
+.cleiton_title {
+  position: absolute;
+  top: -20px;
+  left: 40px;
+  font-size: 2rem;
+  text-shadow: 5px 5px 5px black;
+}
+
+.gui_title {
+  position: absolute;
+  top: -20px;
+  right: 40px;
+  font-size: 2rem;
+  text-shadow: 5px 5px 5px black;
+}
+
+.gui_container p {
+  opacity: 0.5;
+  padding-left: 10px;
+  align-self: flex-end;
+}
+
+.cleiton_container p {
+  opacity: 0.5;
+  padding-right: 10px;
+}
+
+.gui_container .instagram_icon {
+  width: 32px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0.5;
+}
+
+.cleiton_container .instagram_icon {
+  width: 32px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  opacity: 0.5;
 }
