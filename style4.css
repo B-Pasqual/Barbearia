@@ -31,7 +31,7 @@ body {
 
 /* ! Capa ----------------------------------- */
 
-.profissionais_container {
+.container {
   width: 100%;
   height: auto;
 }
@@ -128,89 +128,4 @@ nav a {
 .bar3.anime {
   transform: translate(0px, -8px) rotate(-45deg);
   transform-origin: center;
-}
-
-/* ! Profissionais container --------------------------------------- */
-
-.content_container {
-  margin-top: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  row-gap: 50px;
-}
-
-.barb_container {
-  border: 1px solid goldenrod;
-  width: 90%;
-  height: 200px;
-  align-self: center;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  padding: 2rem;
-}
-
-h2 {
-  padding-left: 1.5rem;
-  color: rgb(204, 197, 164);
-}
-
-.cleiton_img {
-  width: 45%;
-  border-radius: 40px;
-  position: absolute;
-  right: 0;
-  top: -30px;
-}
-
-.gui_img {
-  width: 40%;
-  border-radius: 40px;
-  position: absolute;
-  left: -10px;
-  top: -20px;
-}
-
-.cleiton_title {
-  position: absolute;
-  top: -20px;
-  left: 40px;
-  font-size: 2rem;
-  text-shadow: 5px 5px 5px black;
-}
-
-.gui_title {
-  position: absolute;
-  top: -20px;
-  right: 40px;
-  font-size: 2rem;
-  text-shadow: 5px 5px 5px black;
-}
-
-.gui_container p {
-  opacity: 0.5;
-  padding-left: 10px;
-  align-self: flex-end;
-}
-
-.cleiton_container p {
-  opacity: 0.5;
-  padding-right: 10px;
-}
-
-.gui_container .instagram_icon {
-  width: 32px;
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  opacity: 0.5;
-}
-
-.cleiton_container .instagram_icon {
-  width: 32px;
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  opacity: 0.5;
 }
