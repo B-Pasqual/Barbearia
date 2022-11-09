@@ -183,8 +183,9 @@ nav a {
 
 .since__container {
   width: 90%;
-  background-color: var(--preto-3);
-  height: 60vh;
+  max-width: 600px;
+  background-color: var(--preto-2);
+  height: 65vh;
   border-radius: 3px;
   padding: 3px;
   border: 1px solid var(--dourado-logo);
@@ -203,6 +204,7 @@ since p {
 
 .since__img--container img {
   width: 100%;
+  max-width: 600px;
   border: 20px solid black;
 }
 
@@ -335,20 +337,20 @@ footer {
   width: 300px;
   padding: 1rem 2rem;
   border-radius: 5px;
-  background-color: var(--preto-3);
+  background-color: var(--preto-2);
 }
 
 .horario_container {
   width: 300px;
   padding: 1rem 2rem;
   border-radius: 5px;
-  background-color: var(--preto-3);
+  background-color: var(--preto-2);
 }
 
 .adress_container {
   padding: 1rem 2rem;
   border-radius: 5px;
-  background-color: var(--preto-3);
+  background-color: var(--preto-2);
 }
 
 footer h5 {
