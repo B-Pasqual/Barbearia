@@ -5,7 +5,7 @@
   --preto-4: #2d2d2d;
   --preto-5: #383838;
   --dourado-logo: #d9b269;
-  --dourado-borda: #d9b26996;
+  --dourado-borda: #d9b2695c;
 
   --tamanho1: 20px;
 }
@@ -221,7 +221,7 @@ since p {
   background-color: #d9b269;
   border-radius: 2px;
   text-align: center;
-  color: white;
+  color: rgb(229, 227, 215);
   padding: 0 20%;
   display: flex;
   column-gap: 1rem;
@@ -266,9 +266,9 @@ h3 {
 
 h4 {
   font-size: 2rem;
-  color: rgb(235, 235, 235);
+  color: rgb(234, 229, 197);
   margin-bottom: 2rem;
-  text-shadow: 2px 2px 2px var(--dourado-logo);
+  text-shadow: 2px 2px 2px black;
 }
 
 .icon__container {
