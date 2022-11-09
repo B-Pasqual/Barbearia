@@ -19,8 +19,7 @@ body {
   width: 100%;
   height: auto;
   display: flex;
-  align-items: center;
-  justify-content: center;
+
   color: white;
   background-color: var(--preto-2);
 }
@@ -33,7 +32,10 @@ body {
 
 .container {
   width: 100%;
-  height: auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* ! Navbar ----------------------------------- */
 
@@ -128,4 +130,35 @@ nav a {
 .bar3.anime {
   transform: translate(0px, -8px) rotate(-45deg);
   transform-origin: center;
+}
+
+/*! Comment card --------------------------------- */
+.cards_container {
+  height: auto;
+  width: 90vw;
+  border: 1px solid rgba(201, 182, 108, 0.589);
+}
+
+.comment_card {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 10px;
+  background-color: var(--preto-3);
+}
+
+.nome_cliente {
+  color: goldenrod;
+}
+
+.comentario_cliente {
+  text-align: center;
+  color: rgb(195, 182, 143);
+  opacity: 0.8;
+}
+
+.quotes_icon {
+  opacity: 0.5;
 }

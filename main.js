@@ -30,7 +30,40 @@ const fotos = [
   './img/amigos/galeria18.png',
 ];
 
-const depoimentos = [{}];
+const depoimentos = [
+  {
+    nome: 'Afonso Ethos Oliveira',
+    estrelas: 5,
+    comentario: 'O nome já diz tudo, show de bola. Cleitão manja do negócio',
+    fotoCliente: './img/comment/afonsoEthos.png',
+  },
+  {
+    nome: 'Aguinaldo salomão',
+    estrelas: 5,
+    comentario: 'Excelente atendimento e conforto!',
+    fotoCliente: './img/comment/aguinaldoSalomão.png',
+  },
+  {
+    nome: 'Marcos Lima',
+    estrelas: 5,
+    comentario:
+      'Cleiton e Gui, duas pessoas maravilhosas e do bem que tive o prazer de conhecer à pouco tempo, profissionais no que fazem da melhor qualidade, super indico! ',
+    fotoCliente: './img/comment/marcosLima.png',
+  },
+  {
+    nome: 'Marcos Rogério',
+    estrelas: 5,
+    comentario:
+      'Primeiramente, excelente atendimento. Pontualidade 200%. Ambiente limpo, organizado e aconchegante. Sistema de agendamento eficaz. Indico e recomendo.',
+    fotoCliente: './img/comment/marcosRogerio.png',
+  },
+  {
+    nome: 'Robson rosa',
+    estrelas: 5,
+    comentario: 'Ótima estrutura e atendimento de primeira',
+    fotoCliente: './img/comment/robsonRosa.png',
+  },
+];
 
 //todo---------------- Variáveis
 let i = 0;
