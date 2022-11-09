@@ -5,6 +5,7 @@
   --preto-4: #2d2d2d;
   --preto-5: #383838;
   --dourado-logo: #d9b269;
+  --dourado-borda: #d9b26996;
 
   --tamanho1: 20px;
 }
@@ -190,7 +191,7 @@ nav a {
   height: 65vh;
   border-radius: 3px;
   padding: 3px;
-  border: 1px solid #d9b26999;
+  border: 1px solid var(--dourado-borda);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -260,7 +261,7 @@ h3 {
   box-shadow: 3px 3px 4px 3px rgb(26, 26, 26);
   display: flex;
   padding: 0.5rem;
-  border: 1px solid #d9b26999;
+  border: 1px solid var(--dourado-borda);
 }
 
 h4 {
