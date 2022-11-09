@@ -143,6 +143,7 @@ nav a {
 .barb_container {
   border: 1px solid goldenrod;
   width: 90%;
+  max-width: 400px;
   height: 200px;
   align-self: center;
   position: relative;

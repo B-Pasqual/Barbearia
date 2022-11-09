@@ -182,7 +182,7 @@ nav a {
   gap: 5px;
   flex-wrap: wrap;
   position: relative;
-  padding: 2rem 2rem;
+  padding: 2rem 0.5rem;
 }
 
 .modal {

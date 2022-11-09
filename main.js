@@ -30,6 +30,8 @@ const fotos = [
   './img/amigos/galeria18.png',
 ];
 
+const depoimentos = [{}];
+
 //todo---------------- Variáveis
 let i = 0;
 let controleModal = 0;
