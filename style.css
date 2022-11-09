@@ -190,7 +190,7 @@ nav a {
   height: 60vh;
   border-radius: 3px;
   padding: 3px;
-  border: 1px solid var(--dourado-logo);
+  border: 1px solid #d9b26999;
   flex-direction: column;
   justify-content: center;
 }
@@ -200,14 +200,14 @@ since p {
 }
 
 .since__img--container {
-  height: 200px;
-  margin: 1rem;
+  height: 250px;
+  margin: 1rem 0.5rem 0 0.5rem;
 }
 
 .since__img--container img {
   width: 100%;
   max-width: 600px;
-  border: 20px solid black;
+  border: 10px solid black;
 }
 
 .since h2 {
@@ -222,7 +222,7 @@ since p {
 
 .since p {
   font-size: var(--tamanho1);
-  margin-bottom: 1.5rem;
+
   color: rgba(255, 255, 255, 0.733);
   padding: 0 1rem;
   text-align: center;
@@ -236,7 +236,7 @@ h3 {
   color: var(--dourado-logo);
   text-align: center;
   font-size: 1rem;
-  margin-bottom: 2rem;
+  margin: 1rem 0;
 }
 
 /*! Service Container --------------------------------------------- */
@@ -256,7 +256,7 @@ h3 {
   box-shadow: 3px 3px 4px 3px rgb(26, 26, 26);
   display: flex;
   padding: 0.5rem;
-  border: 1px solid var(--dourado-logo);
+  border: 1px solid #d9b26999;
 }
 
 h4 {
