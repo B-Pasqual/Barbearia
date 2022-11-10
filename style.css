@@ -396,19 +396,14 @@ footer img {
 }
 
 .agendar_btn {
-  color: red;
-  padding: 0.5rem 3rem;
-  font-size: 1.5rem;
+  background-color: var(--dourado-logo);
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  border-radius: 7px;
   text-transform: uppercase;
   letter-spacing: 5px;
-  background-color: var(--dourado-logo);
-  color: black;
   font-weight: bold;
-  border-radius: 10px;
-  transition: all 1s;
-}
-
-.agendar_btn:hover {
-  letter-spacing: 7px;
-  transform: scale(1.05);
+  text-decoration: none;
+  color: black;
 }
