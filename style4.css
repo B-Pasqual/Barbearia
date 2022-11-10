@@ -32,7 +32,7 @@ body {
 
 .container {
   width: 100%;
-  height: 100vh;
+  height: 270vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -136,17 +136,27 @@ nav a {
 .cards_container {
   height: auto;
   width: 90vw;
-  border: 1px solid rgba(201, 182, 108, 0.589);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  row-gap: 2rem;
+  max-width: 1000px;
+  border: 1px solid red;
+  column-gap: 40px;
 }
 
 .comment_card {
+  width: 450px;
   padding: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   row-gap: 10px;
-  background-color: var(--preto-3);
+  background-color: black;
+  border: 1px solid rgba(255, 217, 0, 0.326);
 }
 
 .nome_cliente {
@@ -162,3 +172,9 @@ nav a {
 .quotes_icon {
   opacity: 0.5;
 }
+
+@media (min-width: 1050px) {
+  .container {
+    height: 170vh;
+  }
+} ;
