@@ -328,9 +328,11 @@ h4 {
 /* ! Footer ------------------------------ */
 footer {
   background-color: var(--preto-1);
-  height: 75vh;
+  height: auto;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
   row-gap: 4rem;
   padding: 3rem 1rem;
 }
@@ -341,15 +343,17 @@ footer {
 }
 
 .contato_container {
-  width: 300px;
-  padding: 1rem 0.5rem;
+  min-width: 160px;
+  /* width: 300px; */
+  padding: 0.5rem 0.5rem;
   border-radius: 5px;
   background-color: var(--preto-2);
   border: 1px solid rgba(65, 65, 65, 0.362);
 }
 
 .horario_container {
-  width: 300px;
+  /* width: 300px; */
+  min-width: 160px;
   padding: 1rem 0.5rem;
   border-radius: 5px;
   background-color: var(--preto-2);
@@ -395,15 +399,8 @@ footer img {
   width: 64px;
 }
 
-.agendar_btn {
-  background-color: var(--dourado-logo);
-  display: flex;
-  justify-content: center;
-  padding: 0.5rem;
-  border-radius: 7px;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  font-weight: bold;
-  text-decoration: none;
-  color: black;
+@media (min-width: 850px) {
+  body {
+    background-color: red;
+  }
 }
