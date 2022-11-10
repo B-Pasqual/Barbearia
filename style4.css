@@ -32,10 +32,12 @@ body {
 
 .container {
   width: 100%;
-  height: 200vh;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  margin: 4rem 0;
 }
 /* ! Navbar ----------------------------------- */
 
@@ -180,6 +182,12 @@ nav a {
   opacity: 0.5;
 }
 
+h2 {
+  margin: 6rem 0;
+  text-align: center;
+  color: rgb(234, 229, 197);
+}
+
 @media (min-width: 1050px) {
   .container {
     height: 120vh;
@@ -197,5 +205,9 @@ nav a {
   .drop__menu a {
     font-size: 1rem;
     padding-right: 80px;
+  }
+
+  .container {
+    margin: 10rem 0;
   }
 } ;
