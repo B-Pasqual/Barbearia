@@ -171,9 +171,10 @@ nav a {
 .gallery_title {
   color: var(--dourado-logo);
   margin-top: 80px;
-  padding-left: 3.5rem;
+  padding-left: 6.5rem;
   font-size: 2rem;
 }
+
 .photos_container {
   width: 100%;
   margin-top: 20px;
