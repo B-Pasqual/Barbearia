@@ -413,7 +413,7 @@ footer img {
 
 /* ! Media  --------------------------------------------------------- */
 
-@media (min-width: 1050px) {
+@media (min-width: 900px) {
   body {
     font-size: 24px;
   }
@@ -536,7 +536,7 @@ footer img {
 
   .since__img--container img {
     max-width: 90%;
-    border: 5px solid rgb(216, 216, 203);
+    border: 5px solid rgb(197, 196, 171);
     align-self: center;
   }
 
