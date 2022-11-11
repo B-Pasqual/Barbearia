@@ -104,6 +104,7 @@ nav a {
   letter-spacing: 2px;
   text-transform: uppercase;
   text-decoration: none;
+  font-size: 0.8rem;
 }
 /* Dropdown-menu */
 
@@ -310,7 +311,7 @@ h4 {
 .details__title {
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
-  color: goldenrod;
+  color: var(--dourado-logo);
 }
 
 .details__text {
@@ -342,7 +343,7 @@ footer {
   justify-content: center;
   flex-wrap: wrap;
   /* flex-direction: column; */
-  row-gap: 4rem;
+  row-gap: 1rem;
   padding: 3rem 1rem;
 }
 
@@ -370,11 +371,12 @@ footer {
 }
 
 .adress_container {
-  padding: 1rem 0.5rem;
+  padding: 1rem 0.3rem;
   border-radius: 5px;
   background-color: var(--preto-2);
   border: 1px solid rgba(65, 65, 65, 0.37);
-  margin-left: 2rem;
+  margin-left: 1rem;
+  width: 320px;
 }
 
 footer h5 {
@@ -472,19 +474,19 @@ footer img {
   }
 
   footer h5 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 
   footer p {
     opacity: 0.8;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.6rem;
     color: rgba(255, 255, 255, 0.675);
   }
 
   footer a {
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.9rem;
     display: flex;
     align-items: center;
     column-gap: 1rem;
@@ -495,6 +497,7 @@ footer img {
   /* Service  */
   .service__container {
     padding: 4rem 7rem 5rem 7rem;
+    font-size: 1rem;
   }
 
   .card__container {
