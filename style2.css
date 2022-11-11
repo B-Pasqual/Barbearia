@@ -64,7 +64,7 @@ nav a {
   letter-spacing: 2px;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 /* Dropdown-menu */
 
@@ -330,5 +330,11 @@ nav a {
   .close_btn {
     top: 15%;
     right: 25%;
+  }
+
+  .gallery_title {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
   }
 } ;
