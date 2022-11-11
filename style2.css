@@ -171,9 +171,8 @@ nav a {
 .gallery_title {
   color: var(--dourado-logo);
   margin-top: 80px;
-  padding: 0 2rem;
+  padding-left: 3.5rem;
   font-size: 2rem;
-  text-shadow: 2px 2px 2px rgb(145, 144, 142);
 }
 .photos_container {
   width: 100%;
@@ -260,6 +259,16 @@ nav a {
   transform: scale(1.1);
 }
 
+/* !Media ------------------------------------------------ */
+
+@media (min-width: 750px) {
+  .photo_card {
+    width: 150px;
+    height: auto;
+    border: none;
+  }
+}
+
 @media (min-width: 1050px) {
   .container {
     height: auto;
@@ -281,5 +290,16 @@ nav a {
 
   .container {
     margin: 5rem 0;
+  }
+
+  /* !Photos container ------------------------------------- */
+
+  .photos_container {
+  }
+
+  .photo_card {
+    width: 250px;
+    height: auto;
+    border: none;
   }
 } ;

@@ -400,6 +400,7 @@ footer a {
   column-gap: 1rem;
   margin-top: 1rem;
   transition: all 1s;
+  color: rgba(206, 190, 99, 0.497);
 }
 
 footer a:hover {
