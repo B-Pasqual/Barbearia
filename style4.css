@@ -195,17 +195,17 @@ h2 {
   }
 
   body {
-    font-size: 24px;
+    font-size: 16px;
   }
 
   .drop__menu {
-    height: 160px;
-    bottom: -160px;
+    height: 120px;
+    bottom: -120px;
   }
 
   .drop__menu a {
-    font-size: 1rem;
-    padding-right: 80px;
+    font-size: 0.8 rem;
+    padding-right: 100px;
   }
 
   .container {
