@@ -171,7 +171,9 @@ nav a {
 }
 
 .nome_cliente {
-  color: goldenrod;
+  color: var(--dourado-logo);
+  font-weight: 600;
+  opacity: 0.8;
 }
 
 .comentario_cliente {
