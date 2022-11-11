@@ -259,3 +259,27 @@ nav a {
 .close_btn:hover {
   transform: scale(1.1);
 }
+
+@media (min-width: 1050px) {
+  .container {
+    height: auto;
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+  .drop__menu {
+    height: 120px;
+    bottom: -120px;
+  }
+
+  .drop__menu a {
+    font-size: 0.6rem;
+    padding-right: 65px;
+  }
+
+  .container {
+    margin: 5rem 0;
+  }
+} ;
