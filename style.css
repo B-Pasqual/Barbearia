@@ -353,7 +353,7 @@ footer {
 
 .horario_container {
   /* width: 300px; */
-  min-width: 160px;
+  min-width: 10px;
   padding: 1rem 0.5rem;
   border-radius: 5px;
   background-color: var(--preto-2);
@@ -399,8 +399,39 @@ footer img {
   width: 64px;
 }
 
-@media (min-width: 850px) {
+@media (min-width: 1050px) {
   body {
-    background-color: red;
+    font-size: 24px;
+  }
+  .capa img {
+    width: 450px;
+  }
+
+  .capa h2 {
+    font-size: 3rem;
+    letter-spacing: 10px;
+    opacity: 0.6;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    color: #d9b269;
+  }
+
+  .capa p {
+    margin-top: 1.5rem;
+    font-size: 24px;
+    opacity: 0.8;
+  }
+
+  .drop__menu {
+    height: 160px;
+    bottom: -160px;
+  }
+
+  .drop__menu a {
+    font-size: 1rem;
+    padding-right: 80px;
   }
 }
