@@ -155,22 +155,23 @@ nav a {
 h2 {
   padding-left: 1.5rem;
   color: rgb(204, 197, 164);
+  margin: 4rem 0 2rem 0;
 }
 
 .cleiton_img {
-  width: 45%;
-  border-radius: 40px;
-  position: absolute;
-  right: 0;
-  top: -30px;
-}
-
-.gui_img {
   width: 40%;
   border-radius: 40px;
   position: absolute;
+  right: 0;
+  top: 0px;
+}
+
+.gui_img {
+  width: 35%;
+  border-radius: 40px;
+  position: absolute;
   left: -10px;
-  top: -20px;
+  top: 10px;
 }
 
 .cleiton_title {
@@ -216,6 +217,18 @@ h2 {
   opacity: 0.5;
 }
 
+.gui_container ul {
+  padding-left: 8rem;
+  padding-top: 1rem;
+}
+.cleiton_container ul {
+  padding-top: 1rem;
+}
+
+ul {
+  color: rgb(208, 188, 136);
+}
+
 @media (min-width: 1050px) {
   .container {
     height: auto;
@@ -250,5 +263,19 @@ h2 {
 
   .barb_container img {
     width: 200px;
+  }
+
+  .cleiton_container ul {
+    padding-left: 3rem;
+    padding-top: 2.5rem;
+  }
+
+  .gui_container ul {
+    padding-left: 20rem;
+    padding-top: 2.5rem;
+  }
+
+  li {
+    font-size: 1.2rem;
   }
 } ;

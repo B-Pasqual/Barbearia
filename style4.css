@@ -151,7 +151,7 @@ nav a {
 }
 
 .comment_card {
-  width: 450px;
+  width: 330px;
   padding: 0.5rem;
   display: flex;
   align-items: center;
@@ -213,5 +213,9 @@ h2 {
 
   .container {
     margin: 5rem 0;
+  }
+
+  .comment_card {
+    width: 450px;
   }
 } ;
