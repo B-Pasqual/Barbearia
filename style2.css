@@ -165,13 +165,13 @@ nav a {
 
 .photo_card img {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 .gallery_title {
   color: var(--dourado-logo);
   margin-top: 80px;
-  padding-left: 6.5rem;
+  padding-left: 2rem;
   font-size: 2rem;
 }
 

@@ -155,7 +155,7 @@ nav a {
 h2 {
   padding-left: 1.5rem;
   color: rgb(204, 197, 164);
-  margin: 4rem 0 2rem 0;
+  margin: 2rem 0 0rem 0;
 }
 
 .cleiton_img {
@@ -163,7 +163,7 @@ h2 {
   border-radius: 40px;
   position: absolute;
   right: 0;
-  top: 0px;
+  top: 5px;
 }
 
 .gui_img {
@@ -204,17 +204,17 @@ h2 {
 .gui_container .instagram_icon {
   width: 32px;
   position: absolute;
-  bottom: 20px;
-  right: 20px;
-  opacity: 0.5;
+  bottom: 10px;
+  right: 10px;
+  opacity: 0.6;
 }
 
 .cleiton_container .instagram_icon {
   width: 32px;
   position: absolute;
-  bottom: 20px;
-  left: 20px;
-  opacity: 0.5;
+  bottom: 10px;
+  left: 10px;
+  opacity: 0.6;
 }
 
 .gui_container ul {
@@ -222,7 +222,7 @@ h2 {
   padding-top: 1rem;
 }
 .cleiton_container ul {
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 
 ul {
@@ -277,5 +277,16 @@ ul {
 
   li {
     font-size: 1.2rem;
+  }
+
+  .gui_container .instagram_icon {
+    bottom: 60px;
+    right: 230px;
+  }
+
+  .cleiton_container .instagram_icon {
+    bottom: 60px;
+    left: 65px;
+    opacity: 0.5;
   }
 } ;
